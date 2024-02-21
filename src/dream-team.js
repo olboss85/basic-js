@@ -23,7 +23,9 @@ function createDreamTeam(members) {
             }
         }
     }
-    console.log(dreamTeamName);
+
+	console.log(dreamTeamName);
+	    return dreamTeamName;
 }
 
 module.exports = {
